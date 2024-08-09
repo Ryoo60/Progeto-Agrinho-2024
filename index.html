@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do Campo para a Cidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Do Campo para a Cidade</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#desafios">Desafios</a></li>
+                <li><a href="#oportunidades">Oportunidades</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>A transição do campo para a cidade é um desafio significativo para muitos. A mudança envolve a adaptação a um novo ambiente e estilo de vida, além de lidar com questões econômicas e sociais.</p>
+        </section>
+        <section id="desafios">
+            <h2>Desafios</h2>
+            <p>Se mudar do campo para a cidade pode apresentar vários desafios. Clique no botão abaixo para saber mais sobre como essas mudanças podem impactar a vida das pessoas:</p>
+            <button id="mostrarDesafios">Mostrar Desafios</button>
+            <div id="desafiosDetalhados" style="display:none;">
+                <h3>Principais Desafios</h3>
+                <p>Para aqueles que deixam o campo em busca de novas oportunidades na cidade, diversos desafios podem surgir:</p>
+                <ul>
+                    <li><strong>Adaptação ao Ambiente Urbano:</strong> O ritmo acelerado da cidade pode ser esmagador para quem está acostumado com a tranquilidade do campo. O barulho, a poluição e o agito constante podem ser estressantes.</li>
+                    <li><strong>Custo de Vida:</strong> O custo de vida nas cidades geralmente é mais alto, o que pode incluir moradia, alimentação e transporte. Ajustar o orçamento para acomodar esses novos custos pode ser um desafio significativo.</li>
+                    <li><strong>Desigualdade e Inclusão Social:</strong> A desigualdade social pode ser mais evidente nas cidades. Adaptar-se a um ambiente onde as diferenças socioeconômicas são mais visíveis pode ser um desafio para aqueles que vêm do campo.</li>
+                    <li><strong>Redefinição de Rede de Suporte:</strong> No campo, as pessoas muitas vezes têm redes de apoio próximas, como familiares e amigos. Em uma cidade, a construção de uma nova rede de suporte social pode ser necessária e desafiadora.</li>
+                    <li><strong>Desenvolvimento de Novas Habilidades:</strong> A busca por emprego pode exigir habilidades diferentes das que foram desenvolvidas no campo. Cursos de formação e aprendizado contínuo podem ser necessários para se adaptar ao mercado de trabalho urbano.</li>
+                </ul>
+                <p>Esses desafios podem exigir tempo e esforço para serem superados, mas com planejamento e apoio adequado, é possível fazer uma transição bem-sucedida para a vida na cidade.</p>
+            </div>
+        </section>
+        <section id="oportunidades">
+            <h2>Oportunidades de Trabalho</h2>
+            <p>Mudar-se para a cidade pode oferecer diversas oportunidades de trabalho em diferentes setores. Aqui estão algumas das principais áreas e recursos que você pode explorar:</p>
+            <button id="mostrarOportunidades">Mostrar Oportunidades</button>
+            <div id="oportunidadesLista" style="display:none;">
+                <h3>Setores Promissores</h3>
+                <p>A cidade possui uma economia diversificada com várias áreas de crescimento. Confira alguns setores em alta:</p>
+                <ul>
+                    <li><strong>Tecnologia da Informação:</strong> A cidade é um polo tecnológico com muitas startups e grandes empresas de tecnologia. Oportunidades em desenvolvimento de software, análise de dados, e engenharia de sistemas são abundantes.</li>
+                    <li><strong>Saúde e Bem-Estar:</strong> Com uma população crescente, há uma demanda constante por profissionais de saúde, desde médicos e enfermeiros até terapeutas e nutricionistas.</li>
+                    <li><strong>Educação:</strong> O setor educacional oferece oportunidades para professores, coordenadores e profissionais de administração em escolas e universidades.</li>
+                    <li><strong>Serviços ao Cliente:</strong> Empresas de varejo e serviços frequentemente buscam profissionais para atendimento ao cliente, vendas e gestão.</li>
+                </ul>
+                <h3>Recursos para Busca de Emprego</h3>
+                <p>Utilize os seguintes recursos para encontrar oportunidades e se conectar com empregadores:</p>
+                <ul>
+                    <li><strong>Plataformas Online:</strong> Sites como LinkedIn, Indeed e Glassdoor são essenciais para buscar vagas e se conectar com recrutadores.</li>
+                    <li><strong>Feiras de Emprego e Eventos de Networking:</strong> Participe de eventos para conhecer empregadores e fazer contatos profissionais.</li>
+                    <li><strong>Agências de Recrutamento:</strong> Considere trabalhar com agências especializadas que podem ajudar a encontrar vagas adequadas ao seu perfil.</li>
+                    <li><strong>Programas de Formação e Cursos:</strong> A cidade oferece diversos cursos e workshops que podem ajudar a melhorar suas habilidades e aumentar suas chances no mercado de trabalho.</li>
+                </ul>
+                <p>Adapte seu currículo e carta de apresentação para destacar suas habilidades e experiências relevantes, e não hesite em buscar ajuda de orientadores profissionais para se preparar para o mercado de trabalho.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Do Campo para a Cidade. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+  <!-- Seção de Pesquisa -->
+    <section id="pesquisa">
+        <h2>Pesquisa sobre a Cidade</h2>
+        <p>Utilize a caixa de pesquisa abaixo para buscar mais informações sobre a cidade:</p>
+        <form action="/resultado-pesquisa" method="GET">
+            <input type="text" name="q" placeholder="Digite sua pesquisa...">
+            <button type="submit">Pesquisar</button>
+        </form>
+    </section>
+
+    <!-- Outras seções do site continuam aqui -->
+</main>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seção de Comentários</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Comentários</h1>
+        <div id="comments-container"></div>
+        <form id="comment-form">
+            <textarea id="comment-text" placeholder="Digite seu comentário aqui"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
